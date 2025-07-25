@@ -17,6 +17,20 @@
 
 - ## 📥 Установка
 
+### через Makefile
+
+
+```bash
+git clone https://github.com/FozardBC/package-manager
+cd pm
+
+make          # Показать справку (по умолчанию)
+make build    # Собрать бинарник: pm + Добавить бинарник в /usr/bin
+make mod      # Обновить зависимости: go mod tidy
+make clean    # Удалить бинарник
+
+```
+
 ```bash
 # Клонируй репозиторий
 git clone https://github.com/FozardBC/package-manager
