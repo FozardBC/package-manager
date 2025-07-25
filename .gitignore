@@ -2,7 +2,8 @@
 /packet.json
 /vault/
 /archive_this1
-/pm_cache
 .env
-/installed
 .pm
+*.tar.gz
+.pm_cache/
+installed/
