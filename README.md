@@ -19,7 +19,7 @@
 
 ```bash
 # Клонируй репозиторий
-git clone https://github.com/ваш-логин/pm.git
+git clone https://github.com/FozardBC/package-manager
 cd pm
 
 # Создайте директорию для SSH key
