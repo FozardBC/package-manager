@@ -1,0 +1,7 @@
+/.vscode
+/packet.json
+/vault/
+/archive_this1
+/pm_cache
+.env
+/installed
