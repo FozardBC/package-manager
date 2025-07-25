@@ -31,6 +31,7 @@ make clean    # Удалить бинарник
 
 ```
 
+- # Ручками
 ```bash
 # Клонируй репозиторий
 git clone https://github.com/FozardBC/package-manager
