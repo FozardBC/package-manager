@@ -5,3 +5,4 @@
 /pm_cache
 .env
 /installed
+.pm

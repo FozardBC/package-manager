@@ -12,10 +12,10 @@ import (
 )
 
 type Config struct {
-	SshHost    string `env:"SSH_HOST"`
-	SshUser    string `env:"SSH_USER"`
-	SshPort    string `env:"SSH_PORT"`
-	SshKeyPath string `env:"SSH_KEY_PATH"`
+	SshHost    string `env:"PM_SSH_HOST"`
+	SshUser    string `env:"PM_SSH_USER"`
+	SshPort    string `env:"PM_SSH_PORT"`
+	SshKeyPath string `env:"PM_SSH_KEY_PATH"`
 }
 
 type Packet struct {
