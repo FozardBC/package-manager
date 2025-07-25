@@ -29,10 +29,10 @@ mkdir vault
 # Определите переменные окружения
 # (опционально) Создайте .env и определите
 # (опционально)
-EXPORT SSH_HOST=localhost
-EXPORT SSH_USER=root
-EXPORT SSH_PORT=2222
-SSH_KEY_PATH=./vault/test-key/test-key
+export SSH_HOST=localhost
+export SSH_USER=root
+export SSH_PORT=2222
+export SSH_KEY_PATH=./vault/test-key/test-key
 
 # Соберите бинарник
 go build -o pm
